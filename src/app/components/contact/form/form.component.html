@@ -1,0 +1,22 @@
+<div class="py-3">
+  <div class="subhead">Contact Us</div>
+  <h2 class="title-section">Drop Us a Line</h2>
+  <div class="divider"></div>
+
+  <form name="formMessage" novalidate [formGroup]="form" (ngSubmit)="dataTransfer()">
+    <div class="py-2">
+      <input type="text" class="form-control" placeholder="Full name" formControlName="fullname">
+      <p class="help-block text-danger mt-2" *ngIf="form.get('fullname')?.hasError('required')">Fullname field is required</p>
+    </div>
+    <div class="py-2">
+      <input type="text" class="form-control" placeholder="Email"  formControlName="email">
+      <p class="help-block text-danger mt-2" *ngIf="form.get('email')?.hasError('required')">Email field is required</p>
+      <p class="help-block text-danger mt-2" *ngIf="form.get('email')?.hasError('email')">Email format is not valid</p>
+    </div>
+    <div class="py-2">
+      <textarea rows="6" class="form-control" placeholder="Enter message" formControlName="message"></textarea>
+      <p class="help-block text-danger mt-2" *ngIf="form.get('message')?.hasError('required')">Message field is required</p>
+    </div>
+    <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
+  </form>
+</div>

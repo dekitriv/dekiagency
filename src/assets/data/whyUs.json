@@ -1,0 +1,20 @@
+[
+  {
+    "id":0,
+    "ico":"mai-shapes",
+    "headline":"High Performance",
+    "text":"high-performing hybrid mobile app especially popular for its intuitive design as a productivity app."
+  },
+  {
+    "id":1,
+    "ico":"mai-shapes",
+    "headline":"Friendly Prices",
+    "text":"you only need one app for all your social needs"
+  },
+  {
+    "id":2,
+    "ico":"mai-shapes",
+    "headline":"No time-confusing",
+    "text":"Track your progress on any fasting hours schedule "
+  }
+]

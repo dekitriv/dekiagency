@@ -1,0 +1,18 @@
+
+<div class="page-section features">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 py-3 wow fadeInUp"  *ngFor="let feature of features">
+        <div class="d-flex flex-row">
+          <div class="img-fluid mr-3">
+            <img src="{{feature.img}}" alt="{{feature.headline}}"/>
+          </div>
+          <div>
+            <h5>{{feature.headline}}</h5>
+            <p>{{feature.text}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .container -->
+</div> <!-- .page-section -->

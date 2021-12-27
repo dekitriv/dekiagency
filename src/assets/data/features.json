@@ -1,0 +1,20 @@
+[
+  {
+    "id":0,
+    "img":"../assets/img/icon_pattern.svg",
+    "headline":"Provide financial advice by our advisor",
+    "text":"An adviser can put a plan together to help meet your short, medium and long-term goals."
+  },
+  {
+    "id":1,
+    "img":"../assets/img/icon_pattern.svg",
+    "headline":"Complete solutions for global organisations",
+    "text":"Copywrite, blogpublic realations content translation."
+  },
+  {
+    "id":2,
+    "img":"../assets/img/icon_pattern.svg",
+    "headline":"Provide secure apps",
+    "text":"Enforce secure communication, Provide the right permissions by making your app more secure,"
+  }
+]

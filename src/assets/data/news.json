@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "personName": "Sam Newman",
+    "img": "../assets/img/person/person_2.jpg",
+    "date": "23 Apr 2021",
+    "headline": "What is Business Management?",
+    "text": "Business management is the coordination and organization of business activities.",
+    "routerLink": ""
+  },
+  {
+    "id": 1,
+    "personName": "John Mark",
+    "img": "../assets/img/person/person_1.jpg",
+    "date": "22 Apr 2021",
+    "headline": "What is Assets Management?",
+    "text": "Asset management is the practice of increasing total wealth over time by acquiring, maintaining, and trading investments that have the potential to grow",
+    "routerLink": ""
+  },
+  {
+    "id": 2,
+    "personName": "Sam Newman",
+    "img": "../assets/img/person/person_2.jpg",
+    "date": "22 Apr 2021",
+    "headline": "What is Code of Conduct Business?",
+    "text": "A code of conduct is the most common policy within an organization. ",
+    "routerLink": ""
+  },
+  {
+    "id": 3,
+    "personName": "Sam Newman",
+    "img": "../assets/img/person/person_2.jpg",
+    "date": "21 Apr 2021",
+    "headline": "What is Business Management?",
+    "text": "Business management is the coordination and organization of business activities.",
+    "routerLink": ""
+  },
+  {
+    "id": 4,
+    "personName": "John Mark",
+    "img": "../assets/img/person/person_1.jpg",
+    "date": "20 Apr 2021",
+    "headline": "What is Assets Management?",
+    "text": "Asset management is the practice of increasing total wealth over time by acquiring, maintaining, and trading investments that have the potential to grow",
+    "routerLink": ""
+  },
+  {
+    "id": 5,
+    "personName": "Sam Newman",
+    "img": "../assets/img/person/person_2.jpg",
+    "date": "19 Apr 2021",
+    "headline": "What is Code of Conduct Business?",
+    "text": "A code of conduct is the most common policy within an organization. ",
+    "routerLink": ""
+  },
+  {
+    "id": 6,
+    "personName": "John Mark",
+    "img": "../assets/img/person/person_1.jpg",
+    "date": "18 Apr 2021",
+    "headline": "What is Business Management?",
+    "text": "Business management is the coordination and organization of business activities.",
+    "routerLink": ""
+  },
+  {
+    "id": 7,
+    "personName": "John Mark",
+    "img": "../assets/img/person/person_1.jpg",
+    "date": "17 Apr 2021",
+    "headline": "What is Assets Management?",
+    "text": "Asset management is the practice of increasing total wealth over time by acquiring, maintaining, and trading investments that have the potential to grow",
+    "routerLink": ""
+  },
+  {
+    "id": 8,
+    "personName": "Sam Newman",
+    "img": "../assets/img/person/person_2.jpg",
+    "date": "17 Apr 2021",
+    "headline": "What is Code of Conduct Business?",
+    "text": "A code of conduct is the most common policy within an organization. ",
+    "routerLink": ""
+  }
+]

@@ -1,0 +1,35 @@
+<div class="page-section border-top">
+  <div class="container">
+    <div class="text-center wow fadeInUp">
+      <h2 class="title-section">Pricing Plan</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-auto py-3 wow fadeInUp" *ngFor="let p of pricing">
+        <div class="card-pricing" [ngClass]="p.active? 'active': ''">
+          <div class="header">
+            <div class="price-icon"><span class="{{p.ico}}"></span></div>
+            <div class="price-title">{{p.headline}}</div>
+          </div>
+          <div class="body py-3">
+            <div class="price-tag">
+              <span class="currency">$</span>
+              <h2 class="display-4">{{p.price}}</h2>
+              <span class="period">/monthly</span>
+            </div>
+            <div class="price-info">
+              <p>{{p.text}}</p>
+            </div>
+          </div>
+          <div class="footer">
+            <a href="#" class="btn btn-outline rounded-pill">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div> <!-- .container -->
+</div> <!-- .page-section -->

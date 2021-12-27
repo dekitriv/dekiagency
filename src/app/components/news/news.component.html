@@ -1,0 +1,34 @@
+<app-layout>
+  <div class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 py-3" *ngFor="let n of news">
+          <div class="card-blog">
+            <div class="header">
+              <div class="avatar">
+                <img src="{{ n.img }}" alt="{{ n.personName }}" />
+              </div>
+              <div class="entry-footer">
+                <div class="post-author">{{ n.personName }}</div>
+                <a href="#" class="post-date">{{ n.date }}</a>
+              </div>
+            </div>
+            <div class="body">
+              <div class="post-title">
+                <a href="blog-single.html">{{ n.headline }}</a>
+              </div>
+              <div class="post-excerpt">
+                {{ n.text | textCut }}
+              </div>
+            </div>
+            <div class="footer">
+              <a routerLink="{{ n.routerLink }}"
+                >Read More <span class="mai-chevron-forward text-sm"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-layout>

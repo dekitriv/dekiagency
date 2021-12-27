@@ -1,0 +1,18 @@
+<div class="page-section">
+  <div class="container">
+    <div class="text-center wow fadeInUp">
+      <div class="subhead">Why Choose Us</div>
+      <h2 class="title-section">Your <span class="marked">Comfort</span> is Our Priority</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+
+    <div class="row mt-5 text-center">
+      <div class="col-lg-4 py-3 wow fadeInUp" *ngFor="let wu of whyUs">
+        <div class="display-3"><span class="{{wu.ico}}"></span></div>
+        <h5>{{wu.headline}}</h5>
+        <p>{{wu.text}}</p>
+      </div>
+    </div>
+  </div> <!-- .container -->
+</div> <!-- .page-section -->
+

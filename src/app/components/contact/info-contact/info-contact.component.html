@@ -1,0 +1,12 @@
+<div class="py-3">
+  <h2 class="title-section">Get in Touch</h2>
+  <div class="divider"></div>
+
+
+  <ul class="contact-list">
+    <li *ngFor="let ci of contactInfo">
+      <div class="icon"><span class="{{ci.icoClass}}"></span></div>
+      <div class="content">{{ci.value}}</div>
+    </li>
+  </ul>
+</div>

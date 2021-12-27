@@ -1,0 +1,37 @@
+<footer class="page-footer">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-3 py-3">
+        <h3 routerLink="/">DekiAgency</h3>
+
+        <p *ngFor="let ci of contactInfo"><a routerLink={{ci.path}} >{{ci.value}}</a></p>
+
+      </div>
+
+      <div class="col-lg-3 py-3">
+        <h5>About Us</h5>
+        <ul class="footer-menu" *ngFor="let n of nav">
+          <li><a routerLink="{{n.path}}">{{n.name}}</a></li>
+
+        </ul>
+      </div>
+      <div class="col-lg-3 py-3">
+        <h5>Subscribe</h5>
+        <form action="#">
+          <input type="text" class="form-control" placeholder="Enter your mail..">
+        </form>
+
+        <div class="sosmed-button mt-4 d-flex">
+          <a  *ngFor="let social of socials" routerLink="{{social.path}}"><span class="{{social.klasa}}"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 py-2 text-center">
+        <p id="copyright">&copy; 2021 Dejan Trivunovic 12/18</p>
+      </div>
+    </div>
+  </div> <!-- .container -->
+</footer> <!-- .page-footer -->
+

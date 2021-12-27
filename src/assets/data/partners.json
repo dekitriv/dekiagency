@@ -1,0 +1,27 @@
+[
+  {
+    "id":0,
+    "src":"../assets/img/clients/airbnb.png",
+    "alt":"Airbnb"
+  },
+  {
+    "id":1,
+    "src":"../assets/img/clients/google.png",
+    "alt":"Google"
+  },
+  {
+    "id":2,
+    "src":"../assets/img/clients/stripe.png",
+    "alt":"Stripe"
+  },
+  {
+    "id":3,
+    "src":"../assets/img/clients/paypal.png",
+    "alt":"Paypal"
+  },
+  {
+    "id":4,
+    "src":"../assets/img/clients/mailchimp.png",
+    "alt":"MailChimp"
+  }
+]

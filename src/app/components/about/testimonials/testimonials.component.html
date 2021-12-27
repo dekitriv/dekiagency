@@ -1,0 +1,29 @@
+<div class="page-section bg-light">
+  <div class="container">
+    <div class="owl-carousel" id="testimonials">
+      <div class="item" *ngFor="let t of testimonials">
+        <div class="row align-items-center">
+          <div class="col-md-6 py-3">
+            <div class="testi-image">
+              <img src="{{t.img}}" alt="{{t.personName}}" />
+            </div>
+          </div>
+          <div class="col-md-6 py-3">
+            <div class="testi-content">
+              <p>
+              {{t.text}}
+              </p>
+              <div class="entry-footer">
+                <strong>{{t.personName}}</strong> &mdash;
+                <span class="text-grey">{{t.personJobTitle}} {{t.personCompany}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- .container -->
+</div>
+<!-- .page-section -->

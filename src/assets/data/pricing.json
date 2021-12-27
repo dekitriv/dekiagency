@@ -1,0 +1,26 @@
+[
+  {
+    "id":0,
+    "ico":"mai-people",
+    "headline":"Membership",
+    "price":30,
+    "text":"Choose the plan that right for you",
+    "active":false
+  },
+  {
+    "id":1,
+    "ico":"mai-business",
+    "headline":"Dedicated",
+    "price":60,
+    "text":"Choose the plan that right for you",
+    "active":true
+  },
+  {
+    "id":2,
+    "ico":"mai-rocket-outline",
+    "headline":"Private",
+    "price":90,
+    "text":"Choose the plan that right for you",
+    "active":false
+  }
+]

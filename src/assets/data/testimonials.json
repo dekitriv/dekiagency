@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "img": "../assets/img/person/person_1.jpg",
+    "text": "I'm really glad that I choose DekiAgency team for my project. They consistently deliver product on-time and within budget. I definitely recommend them to my all friends. It was a good collaboration! Thanks DekiAgency team for the mind-blowing work.",
+    "personName":"Melvin Platje",
+    "personJobTitle":"CEO",
+    "personCompany":"Slurin Group"
+  },
+  {
+    "id": 1,
+    "img": "../assets/img/person/person_2.jpg",
+    "text": "DekiAgency has been taking care of our digital marketing and website efforts for over two years now. They are easy to work with, do exactly what they say they will and always blow away our expectations.",
+    "personName":"George Burke",
+    "personJobTitle":"CEO",
+    "personCompany":"Letro"
+  }
+]
